@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.knime.workbench.repository.categories">
+		<category
+            description="The arofab KNIME nodes"
+            level-id="arofab-plugins"
+            name="arofab"
+            path="/">
+		</category>		
+	</extension>
+	<extension point="org.knime.workbench.repository.nodes">
+		<node category-path="/arofab-plugins"
+			factory-class="it.arofab.filehandling.remote.connectioninformation.webdav.HTTPWebDAVConnectionInformationNodeFactory" />
+		<node category-path="/arofab-plugins"
+            factory-class="it.arofab.filehandling.remote.connectioninformation.webdav.HTTPSWebDAVConnectionInformationNodeFactory" />            
+	</extension>
+	<extension point="org.knime.base.filehandling.RemoteFileHandler">
+		<RemoteFileHandler RemoteFileHandler="it.arofab.filehandling.remote.files.webdav.WebDAVRemoteFileHandler">
+		</RemoteFileHandler>
+   </extension>
+</plugin>

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WebDAV Remote File http and https connections
+Bundle-SymbolicName: it.arofab.filehandling.webdav; singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .,
+ lib/httpcomponents-client-4.5.5/commons-codec-1.10.jar,
+ lib/httpcomponents-client-4.5.5/commons-logging-1.2.jar,
+ lib/httpcomponents-client-4.5.5/fluent-hc-4.5.5.jar,
+ lib/httpcomponents-client-4.5.5/httpclient-4.5.5.jar,
+ lib/httpcomponents-client-4.5.5/httpclient-cache-4.5.5.jar,
+ lib/httpcomponents-client-4.5.5/httpclient-win-4.5.5.jar,
+ lib/httpcomponents-client-4.5.5/httpcore-4.4.9.jar,
+ lib/httpcomponents-client-4.5.5/httpmime-4.5.5.jar,
+ lib/httpcomponents-client-4.5.5/jna-4.4.0.jar,
+ lib/httpcomponents-client-4.5.5/jna-platform-4.4.0.jar,
+ lib/sardine-5.8.jar
+Bundle-Activator: it.arofab.filehandling.remote.FileHandlingRemotePlugin
+Bundle-Vendor: Fabrizio Arosio
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base,
+ org.knime.base.filehandling;bundle-version="3.5.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: it.arofab.filehandling.remote.files.webdav
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: it.arofab.filehandling.webdav
