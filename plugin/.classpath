@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry exported="true" kind="lib" path="lib/sardine-5.8.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="lib/jaxb-runtime-2.3.2/FastInfoset-1.2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jaxb-runtime-2.3.2/istack-commons-runtime-3.0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jaxb-runtime-2.3.2/jaxb-runtime-2.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jaxb-runtime-2.3.2/stax-ex-1.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jaxb-runtime-2.3.2/txw2-2.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jakarta.xml.bind-api-2.3.2/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jakarta.xml.bind-api-2.3.2/jakarta.xml.bind-api-2.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/sardine-5.10.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="lib" path="lib/httpcomponents-client-4.5.5/commons-codec-1.10.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/httpcomponents-client-4.5.5/commons-logging-1.2.jar"/>

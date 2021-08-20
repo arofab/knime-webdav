@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: WebDAV Remote File http and https connections
 Bundle-SymbolicName: it.arofab.filehandling.webdav; singleton:=true
-Bundle-Version: 0.1.0.qualifier
+Bundle-Version: 0.2.0.qualifier
 Bundle-ClassPath: .,
  lib/httpcomponents-client-4.5.5/commons-codec-1.10.jar,
  lib/httpcomponents-client-4.5.5/commons-logging-1.2.jar,
@@ -14,15 +14,23 @@ Bundle-ClassPath: .,
  lib/httpcomponents-client-4.5.5/httpmime-4.5.5.jar,
  lib/httpcomponents-client-4.5.5/jna-4.4.0.jar,
  lib/httpcomponents-client-4.5.5/jna-platform-4.4.0.jar,
- lib/sardine-5.8.jar
+ lib/jakarta.xml.bind-api-2.3.2/jakarta.activation-api-1.2.2.jar,
+ lib/jakarta.xml.bind-api-2.3.2/jakarta.xml.bind-api-2.3.2.jar,
+ lib/jaxb-runtime-2.3.2/FastInfoset-1.2.16.jar,
+ lib/jaxb-runtime-2.3.2/istack-commons-runtime-3.0.8.jar,
+ lib/jaxb-runtime-2.3.2/jaxb-runtime-2.3.2.jar,
+ lib/jaxb-runtime-2.3.2/stax-ex-1.8.1.jar,
+ lib/jaxb-runtime-2.3.2/txw2-2.3.2.jar,
+ lib/sardine-5.10.jar
 Bundle-Activator: it.arofab.filehandling.remote.FileHandlingRemotePlugin
 Bundle-Vendor: Fabrizio Arosio
 Require-Bundle: org.eclipse.core.runtime,
  org.knime.workbench.core,
  org.knime.workbench.repository,
  org.knime.base,
- org.knime.base.filehandling;bundle-version="3.5.0"
+ org.knime.base.filehandling;bundle-version="3.5.0",
+ jakarta.xml.bind;bundle-version="2.3.3"
 Bundle-ActivationPolicy: lazy
 Export-Package: it.arofab.filehandling.remote.files.webdav
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Automatic-Module-Name: it.arofab.filehandling.webdav
