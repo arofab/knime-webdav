@@ -2,7 +2,7 @@
 <feature
       id="it.arofab.filehandling.webdav.feature"
       label="WebDAV Remote File http and https connections"
-      version="0.2.0.qualifier"
+      version="0.3.0.qualifier"
       provider-name="Fabrizio Arosio">
 
    <description>
@@ -10,18 +10,18 @@
    </description>
 
    <copyright>
-      Copyright (C) 2018-2021 Fabrizio Arosio
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
+      Copyright (C) 2018-2024 Fabrizio Arosio
+This program is free software: you can redistribute it and/or
+modify
+it under the terms of the GNU General Public License as published
+by
+the Free Software Foundation, either version 3 of the License,
+or
 (at your option) any later version.
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
    </copyright>
@@ -705,9 +705,6 @@ Public License instead of this License.  But first, please read
 
    <plugin
          id="it.arofab.filehandling.webdav"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

@@ -17,6 +17,15 @@ disclaimer:
 	This product includes software developed at
 	The Apache Software Foundation (http://www.apache.org/).
 
+This plugin provides the Apache Commons IO library which is 
+distributed under the Apache License 2.0 with the following copyright/license 
+disclaimer:
+	Apache Commons IO
+	Copyright 2002-2024 The Apache Software Foundation
+	
+	This product includes software developed at
+	The Apache Software Foundation (https://www.apache.org/).
+
 This plugin provides the Sardine library which is distributed under the 
 Apache License 2.0 with the following copyright/license disclaimer:
 	Copyright 2013 Jon Scott Stevens
