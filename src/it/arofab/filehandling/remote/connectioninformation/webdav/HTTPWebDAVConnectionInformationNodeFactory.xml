@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./httpwebdav16x16.png" type="Source" xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+    <name>HTTP WebDAV Connection</name>
+    
+    <shortDescription>
+        Configures the connection information used to connect to a
+        HTTP WEBDav host.        
+    </shortDescription>
+    
+	<fullDescription>
+    	<intro>
+    		<p>
+				This node configures the connection information that will be used to
+	            connect to a HTTP WebDAV remote host.<br/>
+	            The configured connection can be used with standard KNIME I/O Remote Nodes. 
+    		</p>
+    		<p>
+	            The <a href="https://github.com/lookfirst/sardine">Sardine</a>
+    	        library is used as WebDAV server client.
+    		</p>
+		</intro>
+
+        <option name="Host">
+            Address of the host.
+        </option>
+        <option name="Port">
+            Port of the service.
+        </option>
+        <option name="Authentication">
+            Method of authentication.
+            <br/>
+            <b>None</b>
+            <br/>
+            Do not authenticate.
+            <br />
+            <b>User</b>
+            <br />
+            Use username and password to authenticate.
+        </option>
+        <option name="Workflow credentials">
+            Use workflow credentials to determine user
+            and password.
+        </option>
+        <option name="User">
+            Name of the user.
+        </option>
+        <option name="Password">
+            Password of the user.
+        </option>
+        <option name="Timeout">
+            Specify the timeout for the connection in milliseconds here.
+        </option>        
+        <option name="Test connection">
+            Open dialog that test the current
+            connection.
+        </option>
+    </fullDescription>
+    
+    <ports>
+        <outPort name="Connection information port" index="0">
+            Port object
+            containing the connection information.
+        </outPort>
+    </ports>
+</knimeNode>
